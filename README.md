@@ -9,9 +9,13 @@ Product engineer with 7+ years building React and TypeScript applications and Ru
 ## Featured projects
 
 ### 🎭 [Shakespeare RAG](https://github.com/taniket15/shakespeare-rag) · [Live demo](https://shakespeare-rag-taniket.streamlit.app/)
-Ask questions about Shakespeare's 38 plays and 4 poem collections. A deployed RAG app that retrieves passages from a 9,781-chunk FAISS index and answers with an OpenAI model, behind a themed Streamlit chat UI.
+Ask questions about Shakespeare's 38 plays, 4 poem collections and his life. A deployed RAG app that answers only from retrieved passages, with inline citations, follow-up questions and streamed answers.
 
-`Python` `LangChain` `FAISS` `sentence-transformers` `OpenAI API` `Streamlit`
+- **Hybrid retrieval** (FAISS + BM25 + Reciprocal Rank Fusion, plus LLM query expansion) raised top-5 retrieval accuracy from **64% to 100%** on a 33-question eval
+- **Layout-aware PDF parsing** removed 17% noise and attributed every speech to its speaker
+- **LLM-as-judge answer eval**: completeness 49% → 58%, faithful answers 15/17 → 17/17
+
+`Python` `LangChain` `FAISS` `BM25` `sentence-transformers` `OpenAI API` `PyMuPDF` `Streamlit`
 
 ### 🖥️ [Agentic CLI](https://github.com/taniket15/agentic-cli)
 A terminal AI agent built in TypeScript with no agent framework: a hand-rolled tool-calling loop with context compaction, human-in-the-loop approval, run budgets, and an eval suite of 21 cases scored by tool-selection precision, recall and an LLM judge.
@@ -25,11 +29,11 @@ A Google Forms-style builder with a design mode and a fill mode (submit and expo
 
 ## Tech stack
 
-**AI / LLM:** OpenAI API, Vercel AI SDK, LangChain, RAG, embeddings, FAISS, ChromaDB, tool calling, LLM evals (LLM-as-judge, Laminar)
-**Frontend:** React, TypeScript, Redux, RTK Query, Next.js, Storybook, Tailwind
-**Backend:** Ruby on Rails, Node.js, Python, PostgreSQL
-**Mobile:** Flutter, React Native
-**Testing & tooling:** Jest, Vitest, Cypress, Playwright, GitHub Actions, Claude Code, Cursor
+- **AI / LLM:** OpenAI API, Vercel AI SDK, LangChain, RAG, hybrid search (FAISS + BM25), embeddings, ChromaDB, tool calling, LLM evals (LLM-as-judge, Laminar)
+- **Frontend:** React, TypeScript, Redux, RTK Query, Next.js, Storybook, Tailwind
+- **Backend:** Ruby on Rails, Node.js, Python, PostgreSQL
+- **Mobile:** Flutter, React Native
+- **Testing & tooling:** Jest, Vitest, Cypress, Playwright, GitHub Actions, Claude Code, Cursor
 
 ## Connect
 

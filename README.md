@@ -1,5 +1,7 @@
 # Hi, I'm Taniket 👋
 
+<a href="https://github.com/taniket15"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=1200&color=2F81F7&center=true&vCenter=true&width=620&lines=Product%20engineer%20%C2%B7%207%2B%20years%20shipping%20React%20and%20TypeScript;Now%20building%20LLM%20apps%3A%20RAG%20%C2%B7%20agents%20%C2%B7%20evals;I%20measure%20what%20I%20ship" alt="Product engineer · 7+ years shipping React and TypeScript. Now building LLM apps: RAG, agents and evals." /></a>
+
 Product engineer with 7+ years building React and TypeScript applications and Ruby on Rails APIs, now building LLM applications: agents, retrieval-augmented generation (RAG) and evals.
 
 - 🔭 Most recently a Senior Frontend Engineer on an AI products team, shipping AI features end to end
@@ -8,7 +10,10 @@ Product engineer with 7+ years building React and TypeScript applications and Ru
 
 ## Featured projects
 
+<a href="https://github.com/taniket15/shakespeare-rag"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=taniket15&repo=shakespeare-rag&hide_border=true&description_lines_count=2&theme=github_dark" /><img src="https://github-readme-stats.vercel.app/api/pin/?username=taniket15&repo=shakespeare-rag&hide_border=true&description_lines_count=2&theme=default" alt="shakespeare-rag" width="49%" /></picture></a> <a href="https://github.com/taniket15/agentic-cli"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=taniket15&repo=agentic-cli&hide_border=true&description_lines_count=2&theme=github_dark" /><img src="https://github-readme-stats.vercel.app/api/pin/?username=taniket15&repo=agentic-cli&hide_border=true&description_lines_count=2&theme=default" alt="agentic-cli" width="49%" /></picture></a> <a href="https://github.com/taniket15/react-form-builder"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=taniket15&repo=react-form-builder&hide_border=true&description_lines_count=2&theme=github_dark" /><img src="https://github-readme-stats.vercel.app/api/pin/?username=taniket15&repo=react-form-builder&hide_border=true&description_lines_count=2&theme=default" alt="react-form-builder" width="49%" /></picture></a>
+
 ### 🎭 [Shakespeare RAG](https://github.com/taniket15/shakespeare-rag) · [Live demo](https://shakespeare-rag-taniket.streamlit.app/)
+
 Ask questions about Shakespeare's 38 plays, 4 poem collections and his life. A deployed RAG app that answers only from retrieved passages, with inline citations, follow-up questions and streamed answers.
 
 - **Hybrid retrieval** (FAISS + BM25 + Reciprocal Rank Fusion, plus LLM query expansion) raised top-5 retrieval accuracy from **64% to 100%** on a 33-question eval
@@ -18,11 +23,13 @@ Ask questions about Shakespeare's 38 plays, 4 poem collections and his life. A d
 `Python` `LangChain` `FAISS` `BM25` `sentence-transformers` `OpenAI API` `PyMuPDF` `Streamlit`
 
 ### 🖥️ [Agentic CLI](https://github.com/taniket15/agentic-cli)
+
 A terminal AI agent built in TypeScript with no agent framework: a hand-rolled tool-calling loop with context compaction, human-in-the-loop approval, run budgets, and an eval suite of 21 cases scored by tool-selection precision, recall and an LLM judge.
 
 `TypeScript` `Vercel AI SDK` `OpenAI API` `Zod` `Ink` `Laminar` `Vitest`
 
 ### 📝 [React Form Builder](https://github.com/taniket15/react-form-builder)
+
 A Google Forms-style builder with a design mode and a fill mode (submit and export to PDF), built around an extensible field-type registry and a pure, unit-tested engine for conditions and calculations.
 
 `React` `TypeScript` `Vitest`
@@ -58,11 +65,17 @@ More detail on [LinkedIn](https://www.linkedin.com/in/taniket/).
 
 ## Tech stack
 
-- **AI / LLM:** OpenAI API, Vercel AI SDK, LangChain, RAG, hybrid search (FAISS + BM25), embeddings, ChromaDB, tool calling, LLM evals (LLM-as-judge, Laminar)
-- **Frontend:** React, TypeScript, Redux, RTK Query, Next.js, Storybook, Tailwind
-- **Backend:** Ruby on Rails, Node.js, Python, PostgreSQL
-- **Mobile:** Flutter, React Native
-- **Testing & tooling:** Jest, Vitest, Cypress, Playwright, GitHub Actions, Claude Code, Cursor
+**AI / LLM**
+
+<img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge" alt="OpenAI API" /> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" /> <img src="https://img.shields.io/badge/Vercel_AI_SDK-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel AI SDK" /> <img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white" alt="FAISS" /> <img src="https://img.shields.io/badge/Hugging_Face-FF9D00?style=for-the-badge&logo=huggingface&logoColor=white" alt="Hugging Face" /> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+
+RAG · hybrid search (FAISS + BM25) · embeddings · ChromaDB · tool calling · LLM evals (LLM-as-judge, Laminar)
+
+**Languages, frameworks and tools**
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py%2Cts%2Cjs%2Cruby%2Cdart%2Creact%2Credux%2Cnextjs%2Ctailwind%2Cmaterialui%2Crails%2Cnodejs%2Cpostgres%2Cflutter%2Cjest%2Cvitest%2Ccypress%2Caws%2Cgithubactions%2Cjenkins%2Cwebpack%2Cvite&perline=11&theme=dark" /><img src="https://skillicons.dev/icons?i=py%2Cts%2Cjs%2Cruby%2Cdart%2Creact%2Credux%2Cnextjs%2Ctailwind%2Cmaterialui%2Crails%2Cnodejs%2Cpostgres%2Cflutter%2Cjest%2Cvitest%2Ccypress%2Caws%2Cgithubactions%2Cjenkins%2Cwebpack%2Cvite&perline=11&theme=light" alt="Python, TypeScript, JavaScript, Ruby, Dart, React, Redux, Next.js, Tailwind, Material UI, Rails, Node.js, PostgreSQL, Flutter, Jest, Vitest, Cypress, AWS, GitHub Actions, Jenkins, Webpack, Vite" /></picture>
+
+Also: RTK Query · Storybook · Playwright · React Native · Web Vitals · Claude Code · Cursor
 
 ## Connect
 

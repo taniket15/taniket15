@@ -1,7 +1,5 @@
 # Hi, I'm Taniket 👋
 
-<a href="https://github.com/taniket15"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=1200&color=2F81F7&center=true&vCenter=true&width=620&lines=Product%20engineer%20%C2%B7%207%2B%20years%20shipping%20React%20and%20TypeScript;Now%20building%20LLM%20apps%3A%20RAG%20%C2%B7%20agents%20%C2%B7%20evals;I%20measure%20what%20I%20ship" alt="Product engineer · 7+ years shipping React and TypeScript. Now building LLM apps: RAG, agents and evals." /></a>
-
 Product engineer with 7+ years building React and TypeScript applications and Ruby on Rails APIs, now building LLM applications: agents, retrieval-augmented generation (RAG) and evals.
 
 - 🔭 Most recently a Senior Frontend Engineer on an AI products team, shipping AI features end to end
@@ -9,8 +7,6 @@ Product engineer with 7+ years building React and TypeScript applications and Ru
 - 📍 Delhi, India · open to AI engineering and product engineering roles
 
 ## Featured projects
-
-<a href="https://github.com/taniket15/shakespeare-rag"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=taniket15&repo=shakespeare-rag&hide_border=true&description_lines_count=2&theme=github_dark" /><img src="https://github-readme-stats.vercel.app/api/pin/?username=taniket15&repo=shakespeare-rag&hide_border=true&description_lines_count=2&theme=default" alt="shakespeare-rag" width="49%" /></picture></a> <a href="https://github.com/taniket15/agentic-cli"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=taniket15&repo=agentic-cli&hide_border=true&description_lines_count=2&theme=github_dark" /><img src="https://github-readme-stats.vercel.app/api/pin/?username=taniket15&repo=agentic-cli&hide_border=true&description_lines_count=2&theme=default" alt="agentic-cli" width="49%" /></picture></a> <a href="https://github.com/taniket15/react-form-builder"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=taniket15&repo=react-form-builder&hide_border=true&description_lines_count=2&theme=github_dark" /><img src="https://github-readme-stats.vercel.app/api/pin/?username=taniket15&repo=react-form-builder&hide_border=true&description_lines_count=2&theme=default" alt="react-form-builder" width="49%" /></picture></a>
 
 ### 🎭 [Shakespeare RAG](https://github.com/taniket15/shakespeare-rag) · [Live demo](https://shakespeare-rag-taniket.streamlit.app/)
 

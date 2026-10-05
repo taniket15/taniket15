@@ -29,44 +29,23 @@ A Google Forms-style builder with a design mode and a fill mode (submit and expo
 
 ## Experience
 
-### Senior Frontend Engineer · [Apollo.io](https://www.apollo.io) · May 2025 – May 2026
-B2B sales-intelligence platform, on the AI Apps team.
+I've spent 7+ years building product frontends, and the work I enjoy most sits where engineering meets product decisions: finding out why users aren't getting value from something, shipping a fix carefully, and measuring whether it worked.
 
-- **Owned an AI-discovery feature end to end (v1 to v2).** User-data analysis showed the feature was hard to find; I partnered with product and design on a redesign and shipped it through a phased feature-flag rollout, lifting conversion from a **9% baseline to a 15–18% average** (peaking at 24–26%).
-- **Designed the frontend foundation for a platform migration** off a legacy profile system onto a new Content Center API: assets, components and API layers. The team shipped **30+ components in about 3 weeks** against a multi-month baseline, and a maintenance-mode feature flag enabled a **zero-downtime** database migration.
-- **Built a reusable Context Selector shared across 3 AI product surfaces**, backward compatible with 2 legacy versions running in parallel; designed a 3-tier permissions model (Viewer, Editor, Admin) and moved data fetching to RTK Query, removing redundant API calls.
-- **Expanded into Ruby on Rails backend work**: features, fixes and critical incidents on the Content Center APIs.
-- **Fixed how quality was measured:** diagnosed a bug inflating reported E2E test coverage and corrected the metric from 37% to 48.5%.
-- **Improved how the team works:** introduced a ship-room visibility cadence the team adopted, wrote frontend architecture documentation, onboarded a new engineer, and shared on-call and experimentation practices.
+Most recently I was on the AI Apps team at **Apollo.io**, a B2B sales-intelligence platform. My favourite project there started with data: an AI feature was underused because people couldn't find it. Working with product and design, I redesigned it and rolled it out gradually behind feature flags, and conversion went from about 9% to 15–18%. I also designed the frontend foundation for a large platform migration, so the team could ship 30+ components in around three weeks with zero downtime, and picked up Ruby on Rails work on the APIs behind it.
 
-`React` `TypeScript` `Redux` `RTK Query` `Ruby on Rails` `Feature flags`
+Before that I spent nearly seven years at **Josh Technology Group**, growing from my first developer role to tech lead. Highlights: a multi-tenant white-labeling system that cut customer onboarding from two weeks to 15 minutes, cross-platform banking apps in Flutter, and a Next.js rebuild I led with a small squad. I also cared about the people side, mentoring engineers and helping the engineering org grow from 8 to 65+ developers through hiring and onboarding.
 
-### Josh Technology Group (JTG) · Aug 2018 – May 2025
-Nearly 7 years, growing from Front End Developer to Associate Technical Lead.
+Building AI products at Apollo made me want to understand the model side properly, which is what my recent projects are about.
 
-**Associate Technical Lead** · Oct 2022 – May 2025
-- **Rebuilt the marketing site on Next.js and headless WordPress**, reusing the legacy CMS dataset through its API, sustaining **95+ Lighthouse scores** and assessed as 10x more scalable than its predecessor.
-- **Reduced Redux-related bundle size by 95%** in a core shared repository.
-- **Led a squad of 4–5 engineers** on the rebuild at 50% allocation, alongside a flagship product; mentored 6–8 engineers.
-- **Helped scale the engineering org from 8 to 65+ developers:** interviewed candidates, defined onboarding and senior-hiring rubrics, and ran the frontend induction program, recruitment drives and the interview-question-bank team.
+| When | Role | Proudest of |
+| --- | --- | --- |
+| 2025–2026 | Senior Frontend Engineer · Apollo.io | AI feature conversion: 9% → 15–18% |
+| 2022–2025 | Associate Technical Lead · JTG | Next.js rebuild; helping grow the org to 65+ engineers |
+| 2021–2022 | Senior Front End Developer II · JTG | Customer onboarding: 2 weeks → 15 minutes |
+| 2019–2021 | Senior Front End Developer I · JTG | Flutter banking apps on iOS, Android and web |
+| 2018–2019 | Front End Developer · JTG | Component library for a ground-up rewrite |
 
-**Senior Front End Developer II** · Apr 2021 – Sept 2022
-- **Designed a multi-tenant white-labeling pipeline** (tenant-specific UI configuration, routing and asset bundling) that isolated tenant failures and **cut customer onboarding from 2 weeks to 15 minutes**, a 99% reduction.
-- **Designed the data model and repo structure for a client-configuration module**, later adopted as the coding standard by 2 engineering teams.
-- **Cut app load times by 30%** with Web Vitals budgets, and led the team's migration to Jenkins CI/CD.
-
-**Senior Front End Developer I** · Oct 2019 – Mar 2021
-- **Designed a cross-platform Flutter architecture** with a shared business-logic layer, delivering core banking and lending modules on iOS, Android and web.
-- **Raised user engagement by 40%** through data-driven UX and conversion-funnel work with executive leadership.
-
-**Front End Developer** · Aug 2018 – Sept 2019
-- **Built a reusable React and Storybook component library** during a ground-up application rewrite.
-- **Reduced production bundle size and load times** through code splitting, API optimization and SEO improvements.
-
-`Next.js` `React` `Redux` `Flutter` `Dart` `Storybook` `Web Vitals` `Jenkins` `Headless WordPress`
-
-### Education
-**B.Tech, Information Technology** · Northern India Engineering College, GGSIPU · 2018
+The full details are on [LinkedIn](https://www.linkedin.com/in/taniket/).
 
 ## Tech stack
 

@@ -2,7 +2,7 @@
 
 Product engineer with 7+ years building React and TypeScript applications and Ruby on Rails APIs, now building LLM applications: agents, retrieval-augmented generation (RAG) and evals.
 
-- 🔭 Most recently a Senior Frontend Engineer at [Apollo.io](https://www.apollo.io), where I shipped AI product features end to end
+- 🔭 Most recently a Senior Frontend Engineer on an AI products team, shipping AI features end to end
 - 🤖 Currently building AI engineering projects from first principles: agent loops, RAG pipelines and the evals around them
 - 📍 Delhi, India · open to AI engineering and product engineering roles
 
@@ -29,23 +29,32 @@ A Google Forms-style builder with a design mode and a fill mode (submit and expo
 
 ## Experience
 
-I've spent 7+ years building product frontends, and the work I enjoy most sits where engineering meets product decisions: finding out why users aren't getting value from something, shipping a fix carefully, and measuring whether it worked.
+7+ years building product frontends and APIs for B2B SaaS, AI products and fintech, in senior engineer and tech lead roles. Some of the problems I've worked on:
 
-Most recently I was on the AI Apps team at **Apollo.io**, a B2B sales-intelligence platform. My favourite project there started with data: an AI feature was underused because people couldn't find it. Working with product and design, I redesigned it and rolled it out gradually behind feature flags, and conversion went from about 9% to 15–18%. I also designed the frontend foundation for a large platform migration, so the team could ship 30+ components in around three weeks with zero downtime, and picked up Ruby on Rails work on the APIs behind it.
+**🔍 An AI feature users couldn't find.** Usage data showed people weren't discovering it. I redesigned it with product and design, then shipped it gradually behind feature flags so each step could be measured. Conversion went from **9% to 15–18%**.
+<sub>React · TypeScript · feature flags · experimentation</sub>
 
-Before that I spent nearly seven years at **Josh Technology Group**, growing from my first developer role to tech lead. Highlights: a multi-tenant white-labeling system that cut customer onboarding from two weeks to 15 minutes, cross-platform banking apps in Flutter, and a Next.js rebuild I led with a small squad. I also cared about the people side, mentoring engineers and helping the engineering org grow from 8 to 65+ developers through hiring and onboarding.
+**🏗️ Migrating a product off a legacy system without downtime.** I designed the frontend foundation (component, asset and API layers) so the team could build on it in parallel, and added a maintenance-mode flag for the database cutover. **30+ components shipped in about 3 weeks** instead of months, with **zero downtime**.
+<sub>React · Redux · RTK Query · Ruby on Rails</sub>
 
-Building AI products at Apollo made me want to understand the model side properly, which is what my recent projects are about.
+**🧩 One component, three AI surfaces, two legacy versions.** I built a shared context selector that stayed backward compatible with older versions running in parallel, with a 3-tier permissions model, and moved data fetching to RTK Query to remove redundant API calls.
+<sub>React · TypeScript · RTK Query</sub>
 
-| When | Role | Proudest of |
-| --- | --- | --- |
-| 2025–2026 | Senior Frontend Engineer · Apollo.io | AI feature conversion: 9% → 15–18% |
-| 2022–2025 | Associate Technical Lead · JTG | Next.js rebuild; helping grow the org to 65+ engineers |
-| 2021–2022 | Senior Front End Developer II · JTG | Customer onboarding: 2 weeks → 15 minutes |
-| 2019–2021 | Senior Front End Developer I · JTG | Flutter banking apps on iOS, Android and web |
-| 2018–2019 | Front End Developer · JTG | Component library for a ground-up rewrite |
+**🏷️ Onboarding white-label customers took two weeks.** I designed a multi-tenant pipeline with per-tenant UI configuration, routing and asset bundling, where one tenant's failure can't affect the others. Onboarding dropped to **15 minutes**.
+<sub>React · multi-tenant architecture</sub>
 
-The full details are on [LinkedIn](https://www.linkedin.com/in/taniket/).
+**⚡ Slow apps and heavy bundles.** Web Vitals budgets cut load times by **30%**; I cut the Redux-related bundle size of a core shared repository by **95%**; and a Next.js + headless CMS rebuild kept **95+ Lighthouse** scores while reusing the existing content through its API.
+<sub>Next.js · React · Redux · Web Vitals · headless WordPress</sub>
+
+**📱 Banking on three platforms with one codebase.** I designed a Flutter architecture with a shared business-logic layer, delivering banking and lending modules on iOS, Android and web.
+<sub>Flutter · Dart</sub>
+
+**📏 A coverage metric that was wrong.** I traced a bug in how end-to-end test coverage was reported and corrected the figure from **37% to 48.5%**.
+<sub>E2E testing · CI</sub>
+
+**👥 Growing a team, not just code.** As a tech lead I led a squad of 4–5 engineers, mentored 6–8, and helped an engineering org grow from **8 to 65+ developers** by defining hiring rubrics, interviewing, and running frontend onboarding.
+
+More detail on [LinkedIn](https://www.linkedin.com/in/taniket/).
 
 ## Tech stack
 

@@ -27,6 +27,47 @@ A Google Forms-style builder with a design mode and a fill mode (submit and expo
 
 `React` `TypeScript` `Vitest`
 
+## Experience
+
+### Senior Frontend Engineer · [Apollo.io](https://www.apollo.io) · May 2025 – May 2026
+B2B sales-intelligence platform, on the AI Apps team.
+
+- **Owned an AI-discovery feature end to end (v1 to v2).** User-data analysis showed the feature was hard to find; I partnered with product and design on a redesign and shipped it through a phased feature-flag rollout, lifting conversion from a **9% baseline to a 15–18% average** (peaking at 24–26%).
+- **Designed the frontend foundation for a platform migration** off a legacy profile system onto a new Content Center API: assets, components and API layers. The team shipped **30+ components in about 3 weeks** against a multi-month baseline, and a maintenance-mode feature flag enabled a **zero-downtime** database migration.
+- **Built a reusable Context Selector shared across 3 AI product surfaces**, backward compatible with 2 legacy versions running in parallel; designed a 3-tier permissions model (Viewer, Editor, Admin) and moved data fetching to RTK Query, removing redundant API calls.
+- **Expanded into Ruby on Rails backend work**: features, fixes and critical incidents on the Content Center APIs.
+- **Fixed how quality was measured:** diagnosed a bug inflating reported E2E test coverage and corrected the metric from 37% to 48.5%.
+- **Improved how the team works:** introduced a ship-room visibility cadence the team adopted, wrote frontend architecture documentation, onboarded a new engineer, and shared on-call and experimentation practices.
+
+`React` `TypeScript` `Redux` `RTK Query` `Ruby on Rails` `Feature flags`
+
+### Josh Technology Group (JTG) · Aug 2018 – May 2025
+Nearly 7 years, growing from Front End Developer to Associate Technical Lead.
+
+**Associate Technical Lead** · Oct 2022 – May 2025
+- **Rebuilt the marketing site on Next.js and headless WordPress**, reusing the legacy CMS dataset through its API, sustaining **95+ Lighthouse scores** and assessed as 10x more scalable than its predecessor.
+- **Reduced Redux-related bundle size by 95%** in a core shared repository.
+- **Led a squad of 4–5 engineers** on the rebuild at 50% allocation, alongside a flagship product; mentored 6–8 engineers.
+- **Helped scale the engineering org from 8 to 65+ developers:** interviewed candidates, defined onboarding and senior-hiring rubrics, and ran the frontend induction program, recruitment drives and the interview-question-bank team.
+
+**Senior Front End Developer II** · Apr 2021 – Sept 2022
+- **Designed a multi-tenant white-labeling pipeline** (tenant-specific UI configuration, routing and asset bundling) that isolated tenant failures and **cut customer onboarding from 2 weeks to 15 minutes**, a 99% reduction.
+- **Designed the data model and repo structure for a client-configuration module**, later adopted as the coding standard by 2 engineering teams.
+- **Cut app load times by 30%** with Web Vitals budgets, and led the team's migration to Jenkins CI/CD.
+
+**Senior Front End Developer I** · Oct 2019 – Mar 2021
+- **Designed a cross-platform Flutter architecture** with a shared business-logic layer, delivering core banking and lending modules on iOS, Android and web.
+- **Raised user engagement by 40%** through data-driven UX and conversion-funnel work with executive leadership.
+
+**Front End Developer** · Aug 2018 – Sept 2019
+- **Built a reusable React and Storybook component library** during a ground-up application rewrite.
+- **Reduced production bundle size and load times** through code splitting, API optimization and SEO improvements.
+
+`Next.js` `React` `Redux` `Flutter` `Dart` `Storybook` `Web Vitals` `Jenkins` `Headless WordPress`
+
+### Education
+**B.Tech, Information Technology** · Northern India Engineering College, GGSIPU · 2018
+
 ## Tech stack
 
 - **AI / LLM:** OpenAI API, Vercel AI SDK, LangChain, RAG, hybrid search (FAISS + BM25), embeddings, ChromaDB, tool calling, LLM evals (LLM-as-judge, Laminar)
